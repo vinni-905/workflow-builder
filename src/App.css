@@ -1,0 +1,41 @@
+.canvas {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.node-wrapper {
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.node-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  width: 220px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
+}
+
+.node-card.start { border-left: 4px solid green; }
+.node-card.action { border-left: 4px solid blue; }
+.node-card.branch { border-left: 4px solid orange; }
+.node-card.end { border-left: 4px solid red; }
+
+.node-input {
+  width: 100%;
+  margin: 6px 0;
+}
+
+.btn-group button {
+  margin: 3px;
+}
+
+.del-btn {
+  background: #ffdddd;
+}
+
+.branch-row {
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+}
